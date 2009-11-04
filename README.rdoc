@@ -1,0 +1,32 @@
+= How to develop a simple horizontally scalable, highly available system
+
+We will show how to apply these methods to http://groupieguide.com (your typical Rails site).
+
+== Goals
+* Replicates across multiple datacenters
+* Easy setup
+* Fast enough
+* Allows for easy / simple updates
+* Data is safe
+* High visibility into components
+* Writing the software for the system doesn't require someone smarter than me
+* Easy to test
+* Not tied to a vendor (i.e. EC2, Rackspace, Google Apps)
+
+
+== Initial Incomplete Ideas
+* Cassandra for datastore 
+* All (or most) services use a common communication method
+* Use chef for configuration management
+* Rails for frontend
+* Chef-deploy for deployments
+* Use recent version of ubuntu
+* rsyslog for logging
+
+
+== Questions
+* Not sure about monitoring
+* How to do datacenter switchover?  Low DNS TTL -- issues?
+* How to break application into smaller services without introducing tons more complexity
+* Storing backups
+* What use cases will Cassandra not support?
