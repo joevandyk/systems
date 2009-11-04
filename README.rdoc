@@ -31,3 +31,4 @@ We will show how to apply these methods to http://groupieguide.com (your typical
 * How to break application into smaller services without introducing tons more complexity
 * Storing backups
 * What use cases will Cassandra not support?
+* Storing files / uploads  
