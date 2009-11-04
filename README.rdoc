@@ -13,6 +13,7 @@ We will show how to apply these methods to http://groupieguide.com (your typical
 * Easy to test
 * Not tied to a vendor (i.e. EC2, Rackspace, Google Apps)
 * Easy to setup a development environment
+* Cheap.  Doesn't require lots of hardware.  Runs on small machines.
 
 
 == Initial Incomplete Ideas
