@@ -12,6 +12,7 @@ We will show how to apply these methods to http://groupieguide.com (your typical
 * Writing the software for the system doesn't require someone smarter than me
 * Easy to test
 * Not tied to a vendor (i.e. EC2, Rackspace, Google Apps)
+* Easy to setup a development environment
 
 
 == Initial Incomplete Ideas
