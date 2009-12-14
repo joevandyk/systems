@@ -36,3 +36,14 @@ We will show how to apply these methods to http://groupieguide.com (your typical
 * What use cases will Cassandra not support?
 * Storing files / uploads  
 * Full-text searching?
+
+== Action Items!
+1. Research what it would take to migrate GroupieGuide to Cassandra.  Write up findings.
+2. Research virtual IP failover systems (pacemaker, heartbeat, wackamole).  Do tests.
+3. Research how to best split GroupieGuide up into services, while keeping development easy. Also make sure that the system can be automatically tested via integration tests.
+4. Setup the chef cookbooks for deploying this system.
+5. Setup rsyslog for monitoring and centralized logging.
+6. Research how to best do backups and restores.
+7. Setup monitoring service.
+8. Research and setup full-text searching.
+9. Research and setup best way to do file uploads (and storing other files).
